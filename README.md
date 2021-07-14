@@ -2,7 +2,7 @@
 
 ### Contents
 
-- For missing image files check this example in qt <a href= "https://doc-snapshots.qt.io/qtsaferenderer/qtsaferenderer-saferenderer-qtcluster-example.html" target=_"blank">website.</a>
+- For missing image files check this example in qt <a href="https://doc-snapshots.qt.io/qtsaferenderer/qtsaferenderer-saferenderer-qtcluster-example.html" target=_"blank">website </a>
 
 ### Installing ###
 
