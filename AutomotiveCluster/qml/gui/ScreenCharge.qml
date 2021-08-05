@@ -140,6 +140,14 @@ Item {
         if (event.key === Qt.Key_D){
             handeCharge("+", globalData.countCharge)
         }
+        
+        if (event.key === Qt.Key_B){
+             toScreenSport.setSource("ScreenSport.qml")
+             background.visible = false;
+            footerId.visible = false;
+            battery.visible = false;
+
+        }
     }
 
 
