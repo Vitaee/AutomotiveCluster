@@ -14,11 +14,10 @@ Window {
     height: 480
     title: qsTr("HMI Cluster")
     visible: true
-    color: "black"
+    color: "#000000"
 
     Loader { id: rootLoader }
 
-    Component.onCompleted: {  rootLoader.setSource("qrc:/gui/ScreenWelcome.qml") }
-
+    Component.onCompleted: {  rootLoader.setSource("qrc:/gui/Motorama.qml") }
 
 }
