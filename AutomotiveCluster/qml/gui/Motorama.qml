@@ -20,6 +20,16 @@ Item {
             motoramaRoot.driveEnabled = true;
 
         }
+        
+        if (event.key === Qt.Key_C){
+            motoramaRoot.chargeEnabled = true;
+        }
+
+        if (event.key === Qt.Key_B){
+            motoramaRoot.chargeEnabled = false;
+
+        }
+        
     }
 
     Component.onCompleted: {
@@ -98,7 +108,7 @@ Item {
         to: 0.0
         duration: 500
         onStopped: {
-            screenLoader.setSource(currentScreen);
+            screenLoader.setSource(currentScreen, {"globalFooter":footerId});
             screenOpenAnimation.running = true;
         }
     }
@@ -118,6 +128,19 @@ Item {
     Loader {
         id:screenLoader
     }
+    
+    Footer {
+        id: footerId
+        x: 372
+        y: 390
+        color: "transparent"
+
+    }
+
+    GlobalDatas{
+        id: globalData
+    }
+
 
 
 
