@@ -12,15 +12,6 @@ import ClusterDemo 1.0
 
 Item {
     id: rootSport
-    opacity: 0.1
-
-    GlobalDatas{
-        id: globalData
-    }
-
-    Loader {
-        id: chargeScreenLoader
-    }
 
 
     Image {
@@ -579,12 +570,7 @@ Item {
             }
 
 
-            if (event.key ===Qt.Key_Space){
-                mask.visible = false;
-                screenChargeAnim.running = true;
-                chargeScreenLoader.setSource("ScreenCharge.qml")
-
-            }
+         
 
         }
 
@@ -684,14 +670,7 @@ Item {
 
     }
 
-    OpacityAnimator {
-            target: rootSport
-            from: rootSport.opacity
-            to: 1.0
-            duration: 2500
-
-            running: true
-    }
+   
 
 
     OpacityAnimator {
