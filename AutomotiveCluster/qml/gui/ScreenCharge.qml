@@ -112,14 +112,7 @@ Item {
 
 
 
-    Footer {
-        id: footerId
-        x: 372
-        y: 440
-        color: "transparent"
-
-    }
-
+    
     OpacityAnimator {
         target: background
         from: 0.1
@@ -141,13 +134,7 @@ Item {
             handeCharge("+", globalData.countCharge)
         }
         
-        if (event.key === Qt.Key_B){
-             toScreenSport.setSource("ScreenSport.qml")
-             background.visible = false;
-            footerId.visible = false;
-            battery.visible = false;
-
-        }
+       
     }
 
 
