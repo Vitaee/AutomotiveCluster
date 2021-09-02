@@ -65,13 +65,7 @@ Item {
         font.pixelSize: 18
     }
 
-    Footer {
-        id: footerId
-        x: 372
-        y: 412
-        color: "transparent"
-
-    }
+  
 
     OpacityAnimator {
         target: footerId
