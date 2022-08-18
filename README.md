@@ -27,3 +27,7 @@
 ### Working Example 
 https://user-images.githubusercontent.com/45064650/125597630-5cde08bd-590c-48d6-9dea-c654af1cc8b3.mp4
 
+
+## Frontend Updates
+- Design will be look like this; https://doc.qt.io/QtForMCUs-2.2/quickultralite-automotive-example.html
+
