@@ -1,0 +1,13 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+    <file>gui/ScreenSport.qml</file>
+    <file>gui/NavigationMap.qml</file>
+    <file>gui/GlobalDatas.qml</file>
+    <file>gui/CarBody.qml</file>
+    <file>gui/ChargeBlock.qml</file>
+    <file>gui/ScreenWelcome.qml</file>
+    <file>gui/Motorama.qml</file>
+    <file>gui/ScreenCharge.qml</file>
+    <file>gui/Footer.qml</file>
+</qresource>
+</RCC>
