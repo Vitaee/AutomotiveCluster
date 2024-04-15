@@ -1,4 +1,4 @@
-# AutomotiveCluster
+# automotive-cluster-2d
 
 ### Contents
 
@@ -30,4 +30,3 @@ https://user-images.githubusercontent.com/45064650/125597630-5cde08bd-590c-48d6-
 
 ## Frontend Updates
 - Design will be look like this; https://doc.qt.io/QtForMCUs-2.2/quickultralite-automotive-example.html
-
