@@ -1,0 +1,24 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+    <file>iso-icons/iso_grs_7000_4_0245.dat</file>
+    <file>iso-icons/iso_grs_7000_4_0249.dat</file>
+    <file>iso-icons/iso_grs_7000_4_0246.dat</file>
+    <file>iso-icons/iso_grs_7000_4_0247.dat</file>
+    <file>iso-icons/iso_grs_7000_4_0083.dat</file>
+    <file>iso-icons/iso_grs_7000_4_0238.dat</file>
+    <file>iso-icons/iso_grs_7000_4_0456.dat</file>
+    <file>iso-icons/iso_grs_7000_4_0248.dat</file>
+</qresource>
+<qresource prefix="/">
+    <file>images/battery_label.png</file>
+    <file>images/battery.png</file>
+    <file>images/bg_charge.jpg</file>
+    <file>images/car_bg.jpg</file>
+    <file>images/MusicPlayer_CircleRemaining.png</file>
+    <file>images/MusicPlayer_Cover.png</file>
+    <file>images/Icon_TurnLeft_OFF.png</file>
+    <file>images/Gauge_RPM.png</file>
+    <file>images/Gauge_Speed.png</file>
+    <file>images/DashboardFrameSport-mask.png</file>
+</qresource>
+</RCC>
